@@ -1,0 +1,22 @@
+@use "../../abstract/colors";
+
+.heart{
+    background: none;
+    outline:none;
+    background:none;
+    border:none;
+    font-size:120%;
+    padding:0.5rem;
+
+    &__logo{
+        font-size: 120%;
+        color: colors.$blue;
+        &:hover{
+            cursor:pointer;
+        }
+    }
+
+    &__logo.fa-solid{
+        color: colors.$blue;
+    }
+}
