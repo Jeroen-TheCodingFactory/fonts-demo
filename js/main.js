@@ -20,3 +20,9 @@ for(let i = 0; i < hearts.length; i++){
         hearts[i].children[0].classList = "fa-solid fa-heart heart__logo";
     }
 }
+
+/* Javascript for toggle */
+const toggle = document.getElementById("js--toggle");
+toggle.onchange = function(event){
+    console.log(event);
+}
