@@ -58,6 +58,7 @@
     &__output {
         font-size: 250%;
         min-height:7rem;
+        max-width: 20ch;
 
         &--cursive {
             @include mixins.fontCursive;

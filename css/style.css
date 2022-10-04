@@ -182,6 +182,7 @@ body {
 .showcase__output {
   font-size: 250%;
   min-height: 7rem;
+  max-width: 20ch;
 }
 .showcase__output--cursive {
   font-weight: 400;
