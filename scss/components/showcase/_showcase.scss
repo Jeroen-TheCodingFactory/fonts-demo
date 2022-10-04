@@ -3,7 +3,6 @@
 @use "../../abstract/animations";
 
 .showcase {
-    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,7 +24,6 @@
         border: none;
         background: none;
         border-bottom: 0.2rem solid colors.$blue;
-
         &:focus {
             outline: none;
         }
@@ -46,6 +44,7 @@
     &__font {
         font-size: 120%;
         font-weight: 400;
+
     }
 
     &:before {
@@ -58,6 +57,7 @@
 
     &__output {
         font-size: 250%;
+        min-height:7rem;
 
         &--cursive {
             @include mixins.fontCursive;

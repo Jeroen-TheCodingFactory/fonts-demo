@@ -132,7 +132,6 @@ body {
 }
 
 .showcase {
-  width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -182,6 +181,7 @@ body {
 }
 .showcase__output {
   font-size: 250%;
+  min-height: 7rem;
 }
 .showcase__output--cursive {
   font-weight: 400;
